@@ -1,0 +1,11 @@
+
+读取类型：
+    1.w:字符串。
+    2.wb:关于二进制
+        （适用于图片）
+
+
+读取格式：(保存本地)
+    1.urllib.request.urlretrieve(url,'草原.jpg')
+    2.with open(名称,'类型')as fp:
+          fp.write(a.read())

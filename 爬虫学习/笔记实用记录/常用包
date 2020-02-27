@@ -1,0 +1,20 @@
+
+                        request:
+
+介绍链接：https://blog.csdn.net/lihao21/article/details/51857385
+
+    一、urlopen   通过网址URL来获取数据：
+        read()          读取相应内容，内容是字节类型
+        geturl()        获取请求的url
+        getheaders()    获取头部信息，列表里面有元组
+        getcode()       获取状态码
+        readlines()     按行读取，返回列表，都是字节类型
+
+    二、urlretrieve   方法直接将远程数据下载到本地
+
+                   parse:
+
+    一、quote         对非法字符进行编码
+    二、unquote       解码工具
+    三、urlencode     给一个字典，将字典转化为quety_string
+            （见下一章节\parse的使用）
